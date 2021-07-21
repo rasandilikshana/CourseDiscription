@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/CourseDiscription/static/js/main.777e5574.chunk.js",
+    "main.js.map": "/CourseDiscription/static/js/main.777e5574.chunk.js.map",
+    "runtime-main.js": "/CourseDiscription/static/js/runtime-main.832062d4.js",
+    "runtime-main.js.map": "/CourseDiscription/static/js/runtime-main.832062d4.js.map",
+    "static/js/2.750f14cf.chunk.js": "/CourseDiscription/static/js/2.750f14cf.chunk.js",
+    "static/js/2.750f14cf.chunk.js.map": "/CourseDiscription/static/js/2.750f14cf.chunk.js.map",
+    "index.html": "/CourseDiscription/index.html",
+    "precache-manifest.747ca2808e4c3a71791a4fbfcbc6f415.js": "/CourseDiscription/precache-manifest.747ca2808e4c3a71791a4fbfcbc6f415.js",
+    "service-worker.js": "/CourseDiscription/service-worker.js",
+    "static/js/2.750f14cf.chunk.js.LICENSE.txt": "/CourseDiscription/static/js/2.750f14cf.chunk.js.LICENSE.txt",
+    "static/media/What.jpg": "/CourseDiscription/static/media/What.ccb2cad2.jpg",
+    "static/media/profile.png": "/CourseDiscription/static/media/profile.63304d4e.png",
+    "static/media/web.svg": "/CourseDiscription/static/media/web.5ca853a2.svg",
+    "static/media/what2.png": "/CourseDiscription/static/media/what2.3b591683.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.832062d4.js",
+    "static/js/2.750f14cf.chunk.js",
+    "static/js/main.777e5574.chunk.js"
+  ]
+}
