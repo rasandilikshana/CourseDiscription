@@ -1,4 +1,5 @@
-**Course Description Page**
+Course Description Page
+
 <img src="https://github.com/rasandilikshana/CourseDiscription/assets/71342393/9463081d-c7e3-424a-8252-665bcabd3bce" width=250>
 <img src="https://github.com/rasandilikshana/CourseDiscription/assets/71342393/77de5d8b-c8a2-4fb4-89c0-dd674734d53e" width=250>
 <img src="https://github.com/rasandilikshana/CourseDiscription/assets/71342393/598176ac-3965-4eac-9322-bc050a80e0ef" width=250>
