@@ -49,15 +49,15 @@ function InfoSection2({
                 <SocialMedia>
                     <SocialMediaWrap>
                     <SocialIcons>
-                        <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+                        <SocialIconLink href='https://www.facebook.com/' target='_blank' aria-label='Facebook'>
                         <FaFacebook />
                         </SocialIconLink>
-                        <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+                        <SocialIconLink href='https://www.instagram.com/' target='_blank' aria-label='Instagram'>
                         <FaInstagram />
                         </SocialIconLink>
                         <SocialIconLink
                         href={
-                            '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                            'https://www.youtube.com/'
                         }
                         rel='noopener noreferrer'
                         target='_blank'
@@ -65,10 +65,10 @@ function InfoSection2({
                         >
                         <FaYoutube />
                         </SocialIconLink>
-                        <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
+                        <SocialIconLink href='https://twitter.com/' target='_blank' aria-label='Twitter'>
                         <FaTwitter />
                         </SocialIconLink>
-                        <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
+                        <SocialIconLink href='https://linkedin.com/' target='_blank' aria-label='LinkedIn'>
                         <FaLinkedin />
                         </SocialIconLink>
                     </SocialIcons>

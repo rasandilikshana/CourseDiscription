@@ -20,7 +20,7 @@ function CourseIcons() {
         <CourseIconsWrapper>
           <CourseIconsHeading>What You'll Learn</CourseIconsHeading>
           <CourseIconsContainer>
-            <CourseIconsCard to='/sign-up'>
+            <CourseIconsCard to='/'>
               <CourseIconsCardInfo>
                 <CourseIconsCardIcon>
                   <SiHtml5 />
@@ -28,7 +28,7 @@ function CourseIcons() {
                 <CourseIconsCardPlan>HTML</CourseIconsCardPlan>
               </CourseIconsCardInfo>
             </CourseIconsCard>
-            <CourseIconsCard to='/sign-up'>
+            <CourseIconsCard to='/'>
               <CourseIconsCardInfo>
                 <CourseIconsCardIcon>
                   <SiCss3 />
@@ -36,7 +36,7 @@ function CourseIcons() {
                 <CourseIconsCardPlan>CSS</CourseIconsCardPlan>
               </CourseIconsCardInfo>
             </CourseIconsCard>
-            <CourseIconsCard to='/sign-up'>
+            <CourseIconsCard to='/'>
               <CourseIconsCardInfo>
                 <CourseIconsCardIcon>
                   <SiJavascript />
@@ -46,7 +46,7 @@ function CourseIcons() {
             </CourseIconsCard>
           </CourseIconsContainer>
           <CourseIconsContainer>
-            <CourseIconsCard to='/sign-up'>
+            <CourseIconsCard to='/'>
               <CourseIconsCardInfo>
                 <CourseIconsCardIcon>
                   <SiReact />
@@ -54,7 +54,7 @@ function CourseIcons() {
                 <CourseIconsCardPlan>Reat</CourseIconsCardPlan>
               </CourseIconsCardInfo>
             </CourseIconsCard>
-            <CourseIconsCard to='/sign-up'>
+            <CourseIconsCard to='/'>
               <CourseIconsCardInfo>
                 <CourseIconsCardIcon>
                   <SiNodeDotJs />
@@ -62,7 +62,7 @@ function CourseIcons() {
                 <CourseIconsCardPlan>Node JS</CourseIconsCardPlan>
               </CourseIconsCardInfo>
             </CourseIconsCard>
-            <CourseIconsCard to='/sign-up'>
+            <CourseIconsCard to='/'>
               <CourseIconsCardInfo>
                 <CourseIconsCardIcon>
                   <SiPython />

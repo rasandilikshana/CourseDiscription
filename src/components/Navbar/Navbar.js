@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Button } from '../../globalStyles';
+import { animateScroll as scroll } from 'react-scroll';
 import {
   Nav,
   NavbarContainer,
@@ -14,6 +15,10 @@ import {
   NavLinks,
   NavBtnLink
 } from './Navbar.elements';
+
+const handleIconClick = () => {
+  scroll.scrollToTop();
+};
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -41,7 +46,7 @@ function Navbar() {
       <IconContext.Provider value={{ color: '#fff' }}>
         <Nav>
           <NavbarContainer>
-            <NavLogo to='/' onClick={closeMobileMenu}>
+            <NavLogo to='/' onClick={()=>{closeMobileMenu(); handleIconClick();}}>
               <NavIcon />
               EDUlanka
             </NavLogo>
@@ -50,37 +55,37 @@ function Navbar() {
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to='/' onClick={closeMobileMenu}>
+                <NavLinks to='/' onClick={()=>{closeMobileMenu(); handleIconClick();}}  >
                   Home
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/' onClick={closeMobileMenu}>
-                  Classes
+                <NavLinks to='/Whatis' onClick={closeMobileMenu}>
+                  What Is
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/' onClick={closeMobileMenu}>
-                  Teachers
+                <NavLinks to='/Whowant' onClick={closeMobileMenu}>
+                Who Want
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/' onClick={closeMobileMenu}>
-                  About
+                <NavLinks to='/Subjects' onClick={closeMobileMenu}>
+                Subjects
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/' onClick={closeMobileMenu}>
+                <NavLinks to='/Contactus' onClick={closeMobileMenu}>
                   Contact Us
                 </NavLinks>
               </NavItem>
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink to='/sign-up'>
+                  <NavBtnLink to='/'>
                     <Button primary>Sign Up</Button>
                   </NavBtnLink>
                 ) : (
-                  <NavBtnLink to='/sign-up'>
+                  <NavBtnLink to='/'>
                     <Button onClick={closeMobileMenu} fontBig primary>
                       Sign Up
                     </Button>

@@ -10,7 +10,7 @@ export const homeObjOne = {
     'Faster And Better Way To Learn summary of your course content and the key benefits for subscribers.',
   buttonLabel: 'Get Started',
   imgStart: '',
-  img: require('../../images/web.svg'),
+  img: require('../../images/web.png'),
   alt: 'Credit Card',
   start: ''
 };

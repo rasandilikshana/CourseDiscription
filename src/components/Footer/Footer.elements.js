@@ -146,6 +146,7 @@ export const SocialLogo = styled(Link)`
 
 export const SocialIcon = styled(FaMagento)`
   margin-right: 10px;
+  cursor: pointer;
 `;
 
 export const WebsiteRights = styled.small`

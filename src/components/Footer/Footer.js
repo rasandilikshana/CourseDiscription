@@ -1,5 +1,7 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
+import { animateScroll as scroll } from 'react-scroll';
+
 import {
   FaFacebook,
   FaInstagram,
@@ -24,6 +26,9 @@ import {
   SocialIcons,
   SocialIconLink
 } from './Footer.elements';
+const handleIconClick = () => {
+  scroll.scrollToTop();
+};
 
 function Footer() {
   return (
@@ -38,7 +43,7 @@ function Footer() {
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to='/sign-up'>How it works</FooterLink>
+            <FooterLink to='/'>How it works</FooterLink>
             <FooterLink to='/'>Careers</FooterLink>
             <FooterLink to='/'>Investors</FooterLink>
             <FooterLink to='/'>Terms of Service</FooterLink>
@@ -67,20 +72,20 @@ function Footer() {
       </FooterLinksContainer>
       <SocialMedia>
         <SocialMediaWrap>
-          <SocialLogo to='/'>
-            <SocialIcon />
+          <SocialLogo to='/' onClick={handleIconClick}>
+            <SocialIcon onClick={handleIconClick}/>
             EDUlanka
           </SocialLogo>
           <SocialIcons>
-            <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+            <SocialIconLink href='https://www.facebook.com/' target='_blank' aria-label='Facebook'>
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+            <SocialIconLink href='https://www.instagram.com/' target='_blank' aria-label='Instagram'>
               <FaInstagram />
             </SocialIconLink>
             <SocialIconLink
               href={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                'https://www.youtube.com/'
               }
               rel='noopener noreferrer'
               target='_blank'
@@ -88,10 +93,10 @@ function Footer() {
             >
               <FaYoutube />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
+            <SocialIconLink href='https://twitter.com/' target='_blank' aria-label='Twitter'>
               <FaTwitter />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
+            <SocialIconLink href='https://linkedin.com/' target='_blank' aria-label='LinkedIn'>
               <FaLinkedin />
             </SocialIconLink>
           </SocialIcons>
